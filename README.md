@@ -79,6 +79,10 @@
 
 SETH - Solution Challenge 2021 - Gadjah Mada University - Google Developer Student Club
 
+Components:
+* [SETH Serer](https://github.com/KevinAS28/SETH-Server)
+* [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
+* [Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
 
 ### Built With
 
