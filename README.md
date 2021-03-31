@@ -118,6 +118,26 @@ Components:
 
 1. Connect all the devices (PC/Laptop/Phone/NodeMCU) to one network (WIFI)
 
-2. Run the SETH-Server and Face Recognition Module in 1 device, please note this device IP.
+2. Run the SETH-Server and Face Recognition Module in 1 device (Laptop/PC with webcam), please note this device IP.
 
-3. 
+3. Change the IP configuration in SETH C Mobile app in lib/util/app_url.dart
+
+4. (Optional) Change the IP configuration in Fingerprint module in SETH-Server/nodemcu_fingerprint.ino/nodemcu_fingerprint.ino
+
+5. (Optional) If your webcam cannot detected, please take a look in Django-HTTP-Streaming-Face-Recognition/face_core/add_face -> detect_camera() (for face registration)
+
+Django-HTTP-Streaming-Face-Recognition/face_core/auth_face -> detect_camera() (for face authentication)
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+## Contact
+
+Adella Irawan [https://www.linkedin.com/in/adellairawan/](https://www.linkedin.com/in/adellairawan/)
+Alma Mahira Lazuardani [https://www.linkedin.com/in/alma-mahira-lazuardani/](https://www.linkedin.com/in/alma-mahira-lazuardani/)
+Gerald Ivan Dharmawan [https://www.linkedin.com/in/gerald-ivan-dharmawan/](https://www.linkedin.com/in/gerald-ivan-dharmawan/)
+Kevin A Sastramiharja [https://www.linkedin.com/in/kevinas28/](https://www.linkedin.com/in/kevinas28/)
+
