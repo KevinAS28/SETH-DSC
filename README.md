@@ -53,6 +53,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#configuration">Configuration</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -76,7 +77,7 @@ SETH - Solution Challenge 2021 - Gadjah Mada University - Google Developer Stude
 Components:
 * [SETH Server](https://github.com/KevinAS28/SETH-Server)
 * [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
-* [Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
+* (Not officially part of SETH)[Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
 
 ### Built With
 
@@ -85,14 +86,14 @@ Components:
 * [Google Cloud Platform](https://cloud.google.com/)
 * [Python](https://www.python.org/)
 * [Django](https://www.djangoproject.com/)
-
+* [NodeMCUV3](https://www.nodemcu.com/index_en.html)
 
 ### Prerequisites
 
 * UNIX based system (We haven't test it yet on Windows)
 * Wifi network (Allow the port: 80, 81, 8080, 8000)
 * Google Cloud Platform API Key: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials) (Make sure you have enabled the GMAPS API)
-
+* (Optional for Fingerprint module): NodeMCU v3 & FPM10A Fingerprint shield
 
 ### Installation
 
@@ -100,15 +101,23 @@ Components:
    ```sh
    git clone --recurse-submodules -j8 https://github.com/KevinAS28/SETH-DSC
    ```
-2. Clone the repo
+
+2. Install the requirements
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   cd SETH-DSC
+   python -m pip install -r requrements2.txt #requirements1.txt is result of pip freeze
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+3. Follow the instruction to install (README.md) for each components: 
+* [SETH Server](https://github.com/KevinAS28/SETH-Server)
+* [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
+* (Not officially part of SETH)[Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
+
+
+### Configuration
+
+1. Connect all the devices (PC/Laptop/Phone/NodeMCU) to one network (WIFI)
+
+2. Run the SETH-Server and Face Recognition Module in 1 device, please note this device IP.
+
+3. 
