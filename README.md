@@ -74,7 +74,7 @@
 SETH - Solution Challenge 2021 - Gadjah Mada University - Google Developer Student Club
 
 Components:
-* [SETH Serer](https://github.com/KevinAS28/SETH-Server)
+* [![SETH Server][sethserver]](https://github.com/KevinAS28/SETH-Server)
 * [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
 * [Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
 
@@ -83,11 +83,35 @@ Components:
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Tensorflow](https://www.tensorflow.org/)
 * [Flutter](https://flutter.dev/)
-* [Google Cloud Platform](https://flutter.dev/)
+* [Google Cloud Platform](https://cloud.google.com/)
 * [Python](https://www.python.org/)
 * [Django](https://www.djangoproject.com/)
 
 
 
+### Prerequisites
+
+* UNIX based system (We haven't test it yet on Windows)
+* Wifi network (Open the port 80, 81, 8080, 8000)
+* Google Cloud Platform API Key: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials) (Make sure you have enabled the GMAPS API)
 
 
+### Installation
+
+1. Clone the repo
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```JS
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+[sethserver]: https://github.com/KevinAS28/SETH-Server
+[sethcmobile]: https://github.com/delkirawan/SethCMobileApp
+[facemodule]: https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition
