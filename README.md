@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/KevinAS28/SETH-DSC">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" >
   </a>
 
   <h3 align="center">SETH</h3>
@@ -37,7 +37,6 @@
 </p>
 
 
-  
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -65,8 +64,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -77,7 +74,7 @@ SETH - Solution Challenge 2021 - Gadjah Mada University - Google Developer Stude
 Components:
 * [SETH Server](https://github.com/KevinAS28/SETH-Server)
 * [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
-* (Not officially part of SETH)[Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
+* [Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition) (Not officially part of SETH)
 
 ### Built With
 
