@@ -74,13 +74,12 @@
 SETH - Solution Challenge 2021 - Gadjah Mada University - Google Developer Student Club
 
 Components:
-* [![SETH Server][sethserver]](https://github.com/KevinAS28/SETH-Server)
+* [SETH Server](https://github.com/KevinAS28/SETH-Server)
 * [SETH Mobile](https://github.com/delkirawan/SethCMobileApp)
 * [Face Recognition Module](https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition)
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Tensorflow](https://www.tensorflow.org/)
 * [Flutter](https://flutter.dev/)
 * [Google Cloud Platform](https://cloud.google.com/)
@@ -88,17 +87,19 @@ This section should list any major frameworks that you built your project using.
 * [Django](https://www.djangoproject.com/)
 
 
-
 ### Prerequisites
 
 * UNIX based system (We haven't test it yet on Windows)
-* Wifi network (Open the port 80, 81, 8080, 8000)
+* Wifi network (Allow the port: 80, 81, 8080, 8000)
 * Google Cloud Platform API Key: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials) (Make sure you have enabled the GMAPS API)
 
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo [SETH](https://github.com/KevinAS28/SETH-DSC)
+   ```sh
+   git clone --recurse-submodules -j8 https://github.com/KevinAS28/SETH-DSC
+   ```
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
@@ -111,7 +112,3 @@ This section should list any major frameworks that you built your project using.
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
-
-[sethserver]: https://github.com/KevinAS28/SETH-Server
-[sethcmobile]: https://github.com/delkirawan/SethCMobileApp
-[facemodule]: https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition
