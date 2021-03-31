@@ -117,7 +117,7 @@ Components:
 
 2. Run the SETH-Server (on port 8000) and Face Recognition (on port 8080) Module in 1 device (Laptop/PC with webcam), please note this device IP. For the face recognition, please wait until both Face authentication and Face add module loaded
 
-<img src="images/screenshot.png" alt="Logo" width="480" height="480">
+<img src="images/screenshot0.png" alt="screenshot0" width="480" height="480">
 
 3. Change the IP configuration in SETH C Mobile app in lib/util/app_url.dart
 
