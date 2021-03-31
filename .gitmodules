@@ -1,0 +1,9 @@
+[submodule "SethCMobileApp"]
+	path = SethCMobileApp
+	url = https://github.com/delkirawan/SethCMobileApp
+[submodule "Django-HTTP-Streaming-Face-Recognition"]
+	path = Django-HTTP-Streaming-Face-Recognition
+	url = https://github.com/KevinAS28/Django-HTTP-Streaming-Face-Recognition
+[submodule "SETH-Server"]
+	path = SETH-Server
+	url = https://github.com/KevinAS28/SETH-Server
