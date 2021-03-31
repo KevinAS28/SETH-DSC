@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/KevinAS28/SETH-DSC">
-    <img src="images/logo.png" alt="Logo" >
+    <img src="images/logo.png" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">SETH</h3>
